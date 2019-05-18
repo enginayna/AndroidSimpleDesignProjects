@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Search"
+        android:id="@+id/action_Search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/action_Edit"
+        app:showAsAction="never"
+        android:title="Edit"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/action_Settings"
+        android:title="Settings"
+        android:orderInCategory="2"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/sub_changePicture"
+                android:title="Change Picture"
+                app:showAsAction="never"
+                android:orderInCategory="1"
+                />
+            <item
+                android:id="@+id/action_Exit"
+                android:title="Exit"
+                app:showAsAction="never"
+                android:orderInCategory="2"
+                />
+
+        </menu>
+        </item>
+
+
+</menu>

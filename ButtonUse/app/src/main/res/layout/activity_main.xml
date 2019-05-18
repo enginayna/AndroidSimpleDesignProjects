@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="121dp"
+        android:text="Sayac = 0"
+        android:gravity="center"
+        android:autoLink="web"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arttir"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Sifirla"
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:typeface="serif"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="Azalt"
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:typeface="serif"/>
+</LinearLayout>

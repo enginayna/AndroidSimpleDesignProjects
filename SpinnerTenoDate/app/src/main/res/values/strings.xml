@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpinnerTenoDate</string>
+    <string name="ulkeSec">Ulke Seciniz</string>
+
+
+    <string-array name="Ulke_Seciniz">
+        <item/>Turkiye<item/>
+        <item/>Yunanistan<item/>
+        <item/>Bulgaristan<item/>
+        <item/>ABD<item/>
+        <item/>Ingiltere<item/>
+    </string-array>
+</resources>

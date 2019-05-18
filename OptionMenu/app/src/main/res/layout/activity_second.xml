@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:src="@drawable/picture1"
+        android:id="@+id/picture1"/>
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:src="@drawable/picture2"
+        android:id="@+id/picture2"/>
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:src="@drawable/picture3"
+        android:id="@+id/picture3"/>
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:src="@drawable/picture4"
+        android:id="@+id/picture4"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:src="@drawable/picture5"
+            android:id="@+id/picture5"/>
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:src="@drawable/picture6"
+            android:id="@+id/picture6"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
